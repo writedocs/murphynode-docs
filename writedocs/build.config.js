@@ -1,5 +1,6 @@
 const { execSync } = require("child_process");
 const fs = require("fs");
+const path = require("path");
 
 try {
   const config = JSON.parse(fs.readFileSync("./config.json", "utf8"));
